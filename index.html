@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <main>
+          <p id="description">Let us know how we can improve GeeksforGeeks</p>
+          <form id="survey-form" action="" method="">
+            <fieldset>
+                  <label>*Name:<input type="text" id ="name" name="name" placeholder="Enter your name" ></label>
+                  <br>
+                  <label>*Email:<input type="Email" name="email" id="email" placeholder="Enter your email"></label>
+                  <br>
+                  <label>*Age <input type="number" name="number" id="number" min="1" max="123" placeholder="Age"></label>
+                  <br>
+                  <label>Which option best describes your current role? 
+                      <select id="dropdown">
+                          <option value="student">Student</option>
+                          <option value="job">Full time job</option>
+                          <option value="learner">Full time Learner</option>
+                          <option value="prefer">Prefer not to say</option>
+                      </select>
+                  </label>
+                  <p> * How likely is that you would recommend GeeksforGeeks to a friend
+                      <ul>
+                          <li>
+                              <label>Definitely
+                                  <input type="radio" name="radio_btn" value="1">
+                              </label>
+                          </li>
+                          <li>
+                              <label>Maybe
+                                  <input type="radio" name="radio_btn" value="2">
+                              </label>
+                          </li>
+                          <li>
+                              <label>Not sure
+                                  <input type="radio" name="radio_btn" value="3">
+                              </label>
+                          </li>
+                      </ul>
+                  </p>
+                   <label>What do you like most in FCC:
+                      <select id="">
+                          <option disabled>Select an option</option>
+                          <option value="1">1</option>
+                          <option value="2r">2</option>
+                          <option value="3">3</option>
+                      </select>
+                  </label>
+                  <p>Things that should be improved in the future
+      (Check all that apply):
+                      <label>
+                          <input type="checkbox" name="">Front-end Projects
+                      </label>
+                      <label>
+                          <input type="checkbox" name="">Back-end Projects
+                      </label>
+                      <label>
+                          <input type="checkbox" name="">Data Visualization
+                      </label>
+                      <label>
+                          <input type="checkbox" name="">Gitter help rooms
+                      </label>
+                  </p>
+                  <div id="text">
+                      <p>Any Comments or Suggestions?</p>
+                      <textarea rows="3" cols="45" name="txt" placeholder="Enter your text here..."></textarea>
+                  </div>
+                  <button type="submit" id = "submit">Submit</button>
+            </fieldset>
+          </form>
+        </main>
+
+<body>
+
+</body>
+
+</html>
