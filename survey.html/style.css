@@ -1,0 +1,36 @@
+body{
+    background-color: #A9D7D1
+  }
+  #title{
+    text-align: center;
+    font-weight: 700;
+  }
+  main{
+    background-color: #fff;
+    margin: 40px 150px 3px 150px;
+    border-radius: 10px;
+    width: 75%;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  #description{
+    text-align: center;
+    font-size: 16px
+  }
+  ul{
+    list-style-type: none;
+    display: block;
+  }
+  input{
+    margin: 0
+  }
+  #submit{
+      background-color: #59ace0;
+      border-radius: 4px;
+      color: white;
+      font-size: 1em;
+      height: 40px;
+      width: 96px;
+      margin: 10px;
+      border: 0px solid;
+  }
